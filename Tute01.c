@@ -7,7 +7,7 @@
 int main() {
 
   int mark1, mark2;
-  int calculation;
+  float avarage;
   
   printf("Enter mark1:");
   scanf("%d",&mark1);
@@ -15,8 +15,8 @@ int main() {
   printf("Enter mark2:");
   scanf("%d",&mark2);
 
-  calculation=mark1+mark2;
-  printf("Sum is=%d",calculation);
+  avarage=(mark1+mark2)/2.0;
+  printf("Avarage is=%.2f",avarage);
   
   return 0;
 }
